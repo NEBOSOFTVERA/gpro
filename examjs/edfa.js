@@ -1,12 +1,52 @@
         
 const quizData = [
     {
-        question: "coming soon dfa",
-        a: "",
-        b: "",
-        c: "",
-        d: "",
-        correct: "",
+        question: "How many languages are over the alphabet R?",
+        a: "countably infinite",
+        b: " countably finite",
+        c: "uncountable finite",
+        d: "uncountable infinite",
+        correct: "d",
+    },
+    {
+        question: "For a DFA accepting binary numbers whose decimal equivalent is divisible by 4, what are all the possible remainders?",
+        a: "0",
+        b: "0,2",
+        c: "ε may not belong to A",
+        d: "abca ₵ A",
+        correct: "b",
+    },
+    {
+        question: "For a DFA accepting binary numbers whose decimal equivalent is divisible by 4, what are all the possible remainders?",
+        a: "0",
+        b: "0,2",
+        c: "0,2,4",
+        d: "0,1,2,3",
+        correct: "d",
+    },
+    {
+        question: "The sum of minimum and maximum number of final states for a DFA n states is equal to:",
+        a: "n+1",
+        b: " n",
+        c: "n-1",
+        d: "n+2",
+        correct: "a",
+    },
+    {
+        question: " The maximum number of transition which can be performed over a state in a DFA?",
+        a: "1",
+        b: "2",
+        c: "3",
+        d: "4",
+        correct: "c",
+    },
+    {
+        question: "The maximum sum of in degree and out degree over a state in a DFA can be determined as:",
+        a: "4+4",
+        b: "4+16",
+        c: "4+0",
+        d: "depends on the language",
+        correct: "d",
     },
    
 ];
